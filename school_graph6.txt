@@ -1,0 +1,398 @@
+graph [
+    multigraph 1
+    node [
+        id "GHL"
+        label "GHL"
+        location "inside"
+    ]
+    node [
+        id "1HL"
+        label "1HL"
+        location "inside"
+    ]
+    node [
+        id "GW"
+        label "GW"
+        location "inside"
+    ]
+    node [
+        id "1W"
+        label "1W"
+        location "inside"
+    ]
+    node [
+        id "2W"
+        label "2W"
+        location "inside"
+    ]
+    node [
+        id "3W"
+        label "3W"
+        location "inside"
+    ]
+    node [
+        id "GR"
+        label "GR"
+        location "inside"
+    ]
+    node [
+        id "1R"
+        label "1R"
+        location "inside"
+    ]
+    node [
+        id "2R"
+        label "2R"
+        location "inside"
+    ]
+    node [
+        id "GBL"
+        label "GBL"
+        location "inside"
+    ]
+    node [
+        id "1BL"
+        label "1BL"
+        location "inside"
+    ]
+    node [
+        id "2BL"
+        label "2BL"
+        location "inside"
+    ]
+    node [
+        id "3BL"
+        label "3BL"
+        location "inside"
+    ]
+    node [
+        id "GB"
+        label "GB"
+        location "inside"
+    ]
+    node [
+        id "1B"
+        label "1B"
+        location "inside"
+    ]
+    node [
+        id "2B"
+        label "2B"
+        location "inside"
+    ]
+    node [
+        id "3B"
+        label "3B"
+        location "inside"
+    ]
+    node [
+        id "4B"
+        label "4B"
+        location "inside"
+    ]
+    node [
+        id "2ETC"
+        label "2ETC"
+        location "inside"
+    ]
+    node [
+        id "1ETC"
+        label "1ETC"
+        location "inside"
+    ]
+    node [
+        id "GETC"
+        label "GETC"
+        location "inside"
+    ]
+    node [
+        id "Hunt"
+        label "Hunt"
+        location "outside"
+    ]
+    node [
+        id "PEC"
+        label "PEC"
+        location "outside"
+    ]
+    node [
+        id "Sundial"
+        label "Sundial"
+        location "outside"
+    ]
+    node [
+        id "SNR Benches"
+        label "SNR Benches"
+        location "outside"
+    ]
+    node [
+        id "NCSSM Benches"
+        label "NCSSM Benches"
+        location "outside"
+    ]
+    node [
+        id "ETC Courtyard"
+        label "ETC Courtyard"
+        location "outside"
+    ]
+    node [
+        id "GBryan Pit"
+        label "GBryan Pit"
+        location "outside"
+    ]
+    edge [
+        source "GHL"
+        target "1HL"
+        key "1HL->GHL"
+        value 18.9
+    ]
+    edge [
+        source "SNR Benches"
+        target "1HL"
+        key "1HL->SNR Benches"
+        value 15.0
+    ]
+    edge [
+        source "GHL"
+        target "GW"
+        key "GHL->GW"
+        value 43.43
+    ]
+    edge [
+        source "GW"
+        target "1W"
+        key "1W->GW"
+        value 13.0
+    ]
+    edge [
+        source "1W"
+        target "2W"
+        key "1W->2W"
+        value 13.0
+    ]
+    edge [
+        source "2W"
+        target "3W"
+        key "2W->3W"
+        value 13.0
+    ]
+    edge [
+        source "GR"
+        target "1R"
+        key "1R->GR"
+        value 11.3
+    ]
+    edge [
+        source "1R"
+        target "2R"
+        key "1R->2R"
+        value 11.3
+    ]
+    edge [
+        source "GW"
+        target "GR"
+        key "GR->GW"
+        value 36.0
+    ]
+    edge [
+        source "1W"
+        target "1R"
+        key "1R->1W"
+        value 36.0
+    ]
+    edge [
+        source "2W"
+        target "2R"
+        key "2R->2W"
+        value 36.0
+    ]
+    edge [
+        source "2R"
+        target "2BL"
+        key "2R->2BL"
+        value 32.0 
+    ]
+    edge [
+        source "1R"
+        target "1BL"
+        key "1R->1BL"
+        value 32.0
+    ]
+    edge [
+        source "GR"
+        target "GBL"
+        key "GR->GBL"
+        value 32.0
+    ]
+    edge [
+        source "GB"
+        target "1B"
+        key "1B->GB"
+        value 15.17
+    ]
+    edge [
+        source "1B"
+        target "2B"
+        key "1B->2B"
+        value 15.17
+    ]
+    edge [
+        source "2B"
+        target "3B"
+        key "2B->3B"
+        value 15.17
+    ]
+    edge [
+        source "3B"
+        target "4B"
+        key "3B->4B"
+        value 17.0
+    ]
+    edge [
+        source "ETC Courtyard"
+        target "GETC"
+        key "ETC Courtyard->GETC"
+        value 21.68
+    ]
+    edge [
+        source "ETC Courtyard"
+        target "1ETC"
+        key "ETC Courtyard->1ETC"
+        value 32.0
+    ]
+    edge [
+        source "GETC"
+        target "1ETC"
+        key "1ETC->GETC"
+        value 15
+    ]
+    edge [
+        source "1ETC"
+        target "2ETC"
+        key "1ETC->2ETC"
+        value 15
+    ]
+    edge [
+        source "2ETC"
+        target "2B"
+        key "2B->2ETC"
+        value 80.0
+    ]
+    edge [
+        source "GB"
+        target "GBL"
+        key "GB->GBL"
+        value 3.0
+    ]
+    edge [
+        source "1B"
+        target "1BL"
+        key "1B->1BL"
+        value 3.0
+    ]
+    edge [
+        source "2B"
+        target "2BL"
+        key "2B->2BL"
+        value 3.0
+    ]
+    edge [
+        source "3B"
+        target "3BL"
+        key "3B->3BL"
+        value 3.0
+    ]
+    edge [
+        source "ETC Courtyard"
+        target "1B"
+        key "ETC Courtyard->1B"
+        value 29.0
+    ]
+    edge [
+        source "GBryan Pit"
+        target "GB"
+        key "GB->GBryan Pit"
+        value 17.0
+    ]
+    edge [
+        source "GBryan Pit"
+        target "GBL"
+        key "GBL->GBr"
+        value 15.0
+    ]
+    edge [
+        source "GBryan Pit"
+        target "Sundial"
+        key "GBryan Pit->Sundial"
+        value 40.0
+    ]
+    edge [
+        source "Sundial"
+        target "PEC"
+        key "PEC->Sundial"
+        value 39.0
+    ]
+    edge [
+        source "Sundial"
+        target "GHL"
+        key "GHL->Sundial"
+        value 33.0
+    ]
+    edge [
+        source "SNR Benches"
+        target "Sundial"
+        key "SNR Benches-> Sundial"
+        value 43.0
+    ]
+    edge [
+        source "SNR Benches"
+        target "1W"
+        key "SNR Benches->1W"
+        value 28.0
+    ]
+    edge [
+        source "SNR Benches"
+        target "1R"
+        key "SNR Benches->1R"
+        value 60.0
+    ]
+    edge [
+        source "Hunt"
+        target "NCSSM Benches"
+        key "Hunt->NCSSM Benches"
+        value 23.0
+    ]
+    edge [
+        source "Hunt"
+        target "PEC"
+        key "Hunt->PEC"
+        value 60.0
+    ]
+    edge [
+        source "Hunt"
+        target "Sundial"
+        key "Hunt->Sundial"
+        value 72.0
+    ]
+    edge [
+        source "Hunt"
+        target "1W"
+        key "1W->Hunt"
+        value 39.0
+    ]
+    edge [
+        source "NCSSM Benches"
+        target "1W"
+        key "1W->NCSSM Benches"
+        value 39.0
+    ]
+    edge [
+        source "NCSSM Benches"
+        target "SNR Benches"
+        key "NCSSM Benches->SNR Benches"
+        value 41.3
+    ]
+]
+
+
+
